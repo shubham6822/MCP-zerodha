@@ -1,0 +1,22 @@
+{
+  "name": "mcp-zerodha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham6822/MCP-zerodha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubham6822/MCP-zerodha/issues"
+  },
+  "homepage": "https://github.com/shubham6822/MCP-zerodha#readme",
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}
