@@ -22,7 +22,7 @@ const requestToken = process.env.ZERODHA_REQUEST_TOKEN;
 const accessToken = process.env.ZERODHA_ACCESS_TOKEN;
 
 const kc = new KiteConnect({ api_key: apiKey });
-console.log(kc.getLoginURL());
+// console.log(kc.getLoginURL());
 
 async function init() {
   try {
@@ -32,6 +32,8 @@ async function init() {
     console.error(err);
   }
 }
+// Initialize the API calls
+init();
 
 // async function generateSession() {
 //   try {
@@ -61,5 +63,3 @@ export async function placeOrder(
     console.error("Error getting profile:", err);
   }
 }
-// Initialize the API calls
-init();

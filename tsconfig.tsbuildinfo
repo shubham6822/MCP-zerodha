@@ -1,1 +1,1 @@
-{"root":["./app/index.ts","./app/trade.ts"],"version":"5.8.3"}
+{"root":["./app/index.ts","./app/tools/trade.ts"],"version":"5.8.3"}
